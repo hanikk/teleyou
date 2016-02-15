@@ -206,7 +206,7 @@ end
 -- Create a basic config.json file and saves it.
 function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
-  config = {149516204}
+  config = {disabled_channels}
     enabled_plugins = {
     "onservice",
     "inrealm",
